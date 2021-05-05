@@ -14,15 +14,15 @@
 }
 
 .login__message > h2 {
-  font-size: 40px;
+  font-size: 4rem;
   margin-bottom: 0;
 }
 
 .login__message > h1 {
-  font-size: 120px;
+  font-size: 12rem;
   width: 100%;
   line-height: 1em;
-  margin: 0 auto 15px;
+  margin: 0 auto 1.5rem;
   font-weight: 900;
   letter-spacing: 2px;
   color: rgb(17, 17, 17);
@@ -34,22 +34,23 @@
 }
 
 .login__message > p {
-  padding: 15px 0;
+  padding: 1.5rem 0;
   line-height: 1.5em;
   width: 100%;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "Roboto Mono", monospace;
 }
 
 .login__button {
-  width: 300px;
-  margin: 15px auto 0px auto;
-  padding: 20px 0;
+  width: 30rem;
+  margin: 1.5rem auto 0 auto;
+  padding: 2rem 0;
   border: none;
   background: rgb(17, 17, 17);
   font-family: "Inter";
   color: white;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 500;
   cursor: pointer;
 }

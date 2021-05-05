@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  align-items: center;
+  padding: 0 5rem;
+  background-color: #1b1b1d;
+}
+
+.navbar__header {
+  color: #fff;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+}
+
+.navbar__header > span {
+  margin: -5px;
+}
+
+.blog__search {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  padding: 0.5rem 0;
+  margin: 0px 70px;
+  justify-content: space-between;
+  background: rgb(39, 39, 39);
+  border-radius: 5px;
+}
+
+.search__input {
+  width: 80%;
+  padding: 0.5rem 3.5rem;
+  padding-left: 1.5rem;
+  background: none;
+  font-family: "Roboto Mono", monospace;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.search-button {
+  width: 18%;
+  font-family: "Roboto Mono", monospace;
+  background: none;
+  color: white;
+  font-size: 1.3rem;
+  border: 1px solid #525252;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  padding: 1rem 0;
+  border-radius: 4px;
+  transition: 0.1s ease-in-out;
+  background-color: rgb(31, 31, 31);
+  outline: none;
+}
+
+.search-button:hover {
+  background-color: rgb(31, 31, 31, 0.4);
+}
+
+.navbar__user-data {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  cursor: pointer;
+  border: 2px solid #6497b1;
+}
+
+.signedIn {
+  color: #fff;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.logout__button {
+  margin-left: 2.5rem;
+  padding: 1.2rem 2.5rem;
+  border-radius: 2rem;
+  border: none;
+  background: rgb(39, 39, 39);
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.notSignedIn {
+  font-size: 1.5rem;
+}
