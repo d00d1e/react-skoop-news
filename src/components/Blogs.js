@@ -19,7 +19,6 @@ export default function Blogs() {
     axios
       .get(GNEWS_URL)
       .then((response) => {
-        console.log(response.data.articles);
         dispatch(setBlogData(response.data));
         setBlogs(response.data);
         setIsLoading(false);

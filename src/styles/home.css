@@ -24,13 +24,13 @@
   line-height: 1em;
   margin: 0 auto 1.5rem;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   color: rgb(17, 17, 17);
 }
 
 .login__message > h1 > span {
   color: #005b96;
-  margin: -20px;
+  margin: -5px;
 }
 
 .login__message > p {

@@ -57,9 +57,9 @@ export default function Navbar() {
               clientId={process.env.REACT_APP_CLIENT_ID}
               render={(renderProps) => (
                 <button
+                  className="logout__button"
                   onClick={renderProps.onClick}
                   disabled={renderProps.disabled}
-                  className="logout__button"
                 >
                   Logout
                 </button>
