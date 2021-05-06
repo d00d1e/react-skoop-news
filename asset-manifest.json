@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-skoop-news/static/css/main.4ac7b731.chunk.css",
-    "main.js": "/react-skoop-news/static/js/main.b18965b2.chunk.js",
-    "main.js.map": "/react-skoop-news/static/js/main.b18965b2.chunk.js.map",
+    "main.css": "/react-skoop-news/static/css/main.5dd55528.chunk.css",
+    "main.js": "/react-skoop-news/static/js/main.386cc42b.chunk.js",
+    "main.js.map": "/react-skoop-news/static/js/main.386cc42b.chunk.js.map",
     "runtime-main.js": "/react-skoop-news/static/js/runtime-main.a34aa65c.js",
     "runtime-main.js.map": "/react-skoop-news/static/js/runtime-main.a34aa65c.js.map",
-    "static/js/2.20a570da.chunk.js": "/react-skoop-news/static/js/2.20a570da.chunk.js",
-    "static/js/2.20a570da.chunk.js.map": "/react-skoop-news/static/js/2.20a570da.chunk.js.map",
+    "static/js/2.5906ce22.chunk.js": "/react-skoop-news/static/js/2.5906ce22.chunk.js",
+    "static/js/2.5906ce22.chunk.js.map": "/react-skoop-news/static/js/2.5906ce22.chunk.js.map",
     "index.html": "/react-skoop-news/index.html",
-    "static/css/main.4ac7b731.chunk.css.map": "/react-skoop-news/static/css/main.4ac7b731.chunk.css.map",
-    "static/js/2.20a570da.chunk.js.LICENSE.txt": "/react-skoop-news/static/js/2.20a570da.chunk.js.LICENSE.txt"
+    "static/css/main.5dd55528.chunk.css.map": "/react-skoop-news/static/css/main.5dd55528.chunk.css.map",
+    "static/js/2.5906ce22.chunk.js.LICENSE.txt": "/react-skoop-news/static/js/2.5906ce22.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a34aa65c.js",
-    "static/js/2.20a570da.chunk.js",
-    "static/css/main.4ac7b731.chunk.css",
-    "static/js/main.b18965b2.chunk.js"
+    "static/js/2.5906ce22.chunk.js",
+    "static/css/main.5dd55528.chunk.css",
+    "static/js/main.386cc42b.chunk.js"
   ]
 }
