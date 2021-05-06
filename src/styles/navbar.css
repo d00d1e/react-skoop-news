@@ -1,5 +1,7 @@
 .navbar {
   display: flex;
+  position: fixed;
+  width: 100%;
   justify-content: space-between;
   height: 8vh;
   align-items: center;
@@ -20,6 +22,7 @@
 .blog__search {
   flex: 1;
   width: 100%;
+  max-width: 60rem;
   display: flex;
   padding: 0.5rem 0;
   margin: 0px 70px;
@@ -29,7 +32,7 @@
 }
 
 .search__input {
-  width: 80%;
+  width: 100%;
   padding: 0.5rem 3.5rem;
   padding-left: 1.5rem;
   background: none;

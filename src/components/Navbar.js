@@ -5,9 +5,10 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   selectSignedIn,
   selectUserData,
+  setInput,
   setSignedIn,
   setUserData,
-} from "../features/userSlice";
+} from "../redux/userSlice";
 
 import "../styles/navbar.css";
 
@@ -23,21 +24,20 @@ export default function Navbar() {
     dispatch(setUserData(null));
   };
 
-  const handleSearch = () => {
-    // handle search
+  const handleSearch = (e) => {
+    e.preventDefault();
+    dispatch(setInput(inputValue));
   };
 
   return (
     <div className="navbar">
-      <h1 className="navbar__header">
-        bl<span>☺︎</span>g.
-      </h1>
+      <h1 className="navbar__header">Sk⦿⦿p</h1>
       {isSignedIn && (
         <>
           <div className="blog__search">
             <input
               className="search__input"
-              placeholder="Search for a blog"
+              placeholder="Search for news"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
