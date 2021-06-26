@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 import { useDispatch, useSelector } from "react-redux";
-import { selectSearchInput, setBlogData } from "../redux/userSlice";
+import { selectSearchInput, setBlogData } from "../features/userSlice";
 
 import "../styles/blogs.css";
 

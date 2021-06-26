@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import Blogs from "./components/Blogs";
 import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
-import { selectSignedIn } from "./redux/userSlice";
+import { selectSignedIn } from "./features/userSlice";
 
 import "./styles/app.css";
 

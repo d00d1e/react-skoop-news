@@ -8,7 +8,7 @@ import {
   setInput,
   setSignedIn,
   setUserData,
-} from "../redux/userSlice";
+} from "../features/userSlice";
 
 import "../styles/navbar.css";
 
